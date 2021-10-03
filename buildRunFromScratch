@@ -1,0 +1,2 @@
+#! /bin/sh
+docker build -t petstore-from-scratch . && docker run --rm --name petstore -p 8080:8080 petstore-from-scratch

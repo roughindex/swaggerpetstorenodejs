@@ -1,0 +1,4 @@
+swagger-codegen-cli.jar
+installCodeGen
+node_modules/**
+node.*

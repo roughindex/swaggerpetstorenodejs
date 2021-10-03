@@ -1,0 +1,4 @@
+#! /bin/bash
+pushd src
+java -jar ../swagger-codegen-cli.jar generate -l nodejs-server -i ~/Downloads/petstore.yaml
+popd

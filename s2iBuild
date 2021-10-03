@@ -1,0 +1,2 @@
+#! /bin/sh
+s2i build src registry.redhat.io/rhscl/nodejs-14-rhel7 petstore -c 
